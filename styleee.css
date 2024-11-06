@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    margin: 0;
+    background-image: linear-gradient(to right, #0e0d0d, #0e0d0d,
+    #0e0d0d);
+}
+
+#primeiro {
+    width: 100%;
+    padding-top: 40px;
+    text-align: center;
+}
+
+#primeiro h1 {
+    font-size: 4em;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    margin: 0;
+}
+
+/* Container para centralizar os botões lado a lado */
+#button-container {
+    display: flex;
+    gap: 20px; /* Espaço entre os botões */
+    margin-top: 20px;
+}
+
+#segundo, #terceiro {
+    background-color: #2b2b2b;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #463d1c;
+    width: 150px;
+    padding: 20px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    display: block; /* Torna a div inteira clicável */
+}
+
+#segundo a, #terceiro a {
+    display: block; /* Faz o <a> ocupar toda a área da caixa */
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#segundo:hover {
+    background-color: #000000;
+}
+
+#terceiro {
+    background-color: #2b2b2b;
+}
+
+#terceiro:hover {
+    background-color: #000000;
+}
+
+#segundo h1, #terceiro h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+#pascalina-container {
+    text-align: left; /* Para alinhar o texto à esquerda */
+    margin-top: 20px; /* Dá um espaço do topo */
+    padding-left: 20px; /* Dá um espaço da borda esquerda */
+    color: #ffffff;
+}
+
+#paragrafo {
+    text-align:justify
+    }
+
+p{
+    color: #ffffff;
+}    
